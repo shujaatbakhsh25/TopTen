@@ -4,7 +4,7 @@ Implemented on macOS using python 3.6.
 
 
 
-**#Desktop_Clean**
+**Desktop_Clean**
 
 
 This script scans the desktop for different file types and then copies them in seperate folders in documents directory.
