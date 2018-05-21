@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-
+import getpass
 
 def startswith(pth_name):
     ''' Checks for "." path names'''
@@ -116,6 +116,6 @@ def top_ten(pth_name):
         final.append((temp2[j][0], a))
     return final
 
-pth_name = input("Enter the name of the user :")
+pth_name = getpass.getuser()
 for i in top_ten("/users/" + pth_name):
     print(i)
